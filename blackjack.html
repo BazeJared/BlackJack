@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gaming Table</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="rules.html">Rules</a>
+      <a href="table.html">Play</a>
+    </nav>
+    <main>
+      <section class="dealer-area">
+        <h2>Dealer's Cards</h2>
+        <ul class="dealer-cards">
+          <li>King of Hearts</li>
+          <li>Queen of Spades</li>
+          <li>6 of Diamonds</li>
+        </ul>
+      </section>
+
+      <section class="player-area">
+        <h2>Player's Cards</h2>
+        <ul class="player-cards">
+          <li>Ace of Clubs</li>
+          <li>7 of Hearts</li>
+          <li>3 of Diamonds</li>
+        </ul>
+      </section>
+
+      <section class="game-options">
+        <h3>Player's Options</h3>
+        <dl>
+          <dt>Hit</dt>
+          <dd>Request another card from the dealer</dd>
+          
+          <dt>Stand</dt>
+          <dd>Keep your current hand and end your turn</dd>
+          
+          <dt>Split</dt>
+          <dd>If you have two cards of the same value, you can split them into two separate hands</dd>
+        </dl>
+      </section>
+
+      <section class="player-actions">
+        <h3>Player's Actions</h3>
+        <button type="button" disabled>Hit</button>
+        <button type="button">Stand</button>
+        <button type="button">Split</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
