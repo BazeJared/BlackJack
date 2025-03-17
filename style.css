@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    background-color: #1a472a;  /* Dark green casino table color */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #2c1810;  /* Dark brown */
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: #ffd700;  /* Gold color */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3c2820;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card Areas */
+.dealer-area, .player-area {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Card Lists */
+.dealer-cards, .player-cards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dealer-cards li, .player-cards li {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+}
+
+/* Game Options Section */
+.game-options {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+}
+
+dt {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+}
+
+/* Player Actions */
+.player-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #ffd700;
+    color: #2c1810;
+    border: none;
+    padding: 12px 24px;
+    margin: 0 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    background-color: #ffed4a;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Rules Page Specific */
+article {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
